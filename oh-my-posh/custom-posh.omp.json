@@ -63,7 +63,7 @@
         {
           "foreground": "p:red",
           "style": "plain",
-          "template": "| root ",
+          "template": "root ",
           "type": "root"
         },
         {
@@ -73,13 +73,13 @@
             "fetch_virtual_env": true
           },
           "style": "plain",
-          "template": "| \ue235 {{ .Venv }} ",
+          "template": "\ue235 {{ .Venv }} ",
           "type": "python"
         },
         {
           "foreground": "p:green",
           "style": "plain",
-          "template": "| \ue719 {{ if .PackageManagerIcon }}{{ .PackageManagerIcon }} {{ end }}{{ .Full }} ",
+          "template": "\udb80\udf99 {{ if .PackageManagerIcon }}{{ .PackageManagerIcon }} {{ end }}{{ .Full }} ",
           "type": "node"
         }
       ],
