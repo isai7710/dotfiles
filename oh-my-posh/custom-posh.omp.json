@@ -15,7 +15,7 @@
       "alignment": "left",
       "segments": [
         {
-          "foreground": "p:os",
+          "foreground": "#7F3FBF",
           "style": "plain",
           "template": "{{.Icon}} ",
           "type": "os"
