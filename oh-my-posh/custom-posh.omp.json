@@ -38,7 +38,7 @@
           "type": "path"
         },
         {
-          "foreground": "p:lavender",
+          "foreground": "p:green",
           "properties": {
             "branch_icon": "\ue725 ",
             "cherry_pick_icon": "\ue29b ",
@@ -51,7 +51,7 @@
             "tag_icon": "\uf412 "
           },
           "style": "plain",
-          "template": ":: {{ .HEAD }}{{ if .Staging.Changed }} \uf046 {{ .Staging.String }}{{ end }}{{ if and (.Working.Changed) (.Staging.Changed) }} |{{ end }}{{ if .Working.Changed }} \uf044 {{ .Working.String }}{{ end }} ",
+          "template": "{{ .HEAD }} ::{{ if .Staging.Changed }} \uf046 {{ .Staging.String }}{{ end }}{{ if and (.Working.Changed) (.Staging.Changed) }} |{{ end }}{{ if .Working.Changed }} \uf044 {{ .Working.String }}{{ end }} ",
           "type": "git"
         }
       ],
@@ -90,13 +90,13 @@
       "newline": true,
       "segments": [
         {
-          "foreground": "p:lavender",
+          "foreground": "p:pink",
           "foreground_templates": ["{{ if gt .Code 0 }}p:red{{ end }}"],
           "properties": {
             "always_enabled": true
           },
           "style": "plain",
-          "template": "\uf105 ",
+          "template": "\udb85\udfa9",
           "type": "status"
         }
       ],
