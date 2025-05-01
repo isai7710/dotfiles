@@ -79,7 +79,7 @@
         {
           "foreground": "p:green",
           "style": "plain",
-          "template": "| \ue718 {{ if .PackageManagerIcon }}{{ .PackageManagerIcon }} {{ end }}{{ .Full }} ",
+          "template": "| \ue719 {{ if .PackageManagerIcon }}{{ .PackageManagerIcon }} {{ end }}{{ .Full }} ",
           "type": "node"
         }
       ],
