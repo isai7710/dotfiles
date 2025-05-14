@@ -61,6 +61,16 @@
       "alignment": "right",
       "segments": [
         {
+          "foreground": "#a9ffb4",
+          "properties": {
+            "style": "dallas",
+            "threshold": 0
+          },
+          "style": "diamond",
+          "template": " {{ .FormattedMs }}s <#ffffff>\ue601</> ",
+          "type": "executiontime"
+        },
+        {
           "foreground": "p:red",
           "style": "plain",
           "template": "root ",
