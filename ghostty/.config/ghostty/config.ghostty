@@ -1,0 +1,12 @@
+# Catppuccin Machiato theme
+theme = Catppuccin Macchiato
+
+# frosted
+background-opacity = 0.5
+background-blur = true
+
+# padding
+window-padding-x = 10
+window-padding-y = 8
+window-padding-balance = true
+font-thicken = true
